@@ -2,7 +2,7 @@
 
 A collection of snippets to use when working with Enonic XP in Atom.
 
-![screenshot](/../screenshots/screenshot.jpg?raw=true "Screenshot")
+![screenshot](https://github.com/gustafekeberg/enonic-xp-atom-snippets/blob/screenshots/screenshot.jpg?raw=true "Screenshot")
 
 ## Snippet files included
 

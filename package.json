@@ -1,9 +1,9 @@
 {
   "name": "enonic-xp-snippets",
-  "main": "./lib/my-package",
+  "main": "",
   "version": "0.0.1",
-  "description": "Snippets for Enonic XP",
-  "repository": "https://github.com/atom/my-package",
+  "description": "Enonic XP Snippets for Atom",
+  "repository": "https://github.com/gustafekeberg/enonic-xp-atom-snippets",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
