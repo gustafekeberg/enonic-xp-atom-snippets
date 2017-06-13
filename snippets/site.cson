@@ -1,0 +1,19 @@
+# Generated with Atomizr – https://atom.io/packages/atomizr
+".text.xml":
+	"Enonic XP - Site":
+		prefix: "xpSite"
+		body: '''
+			<?xml version="1.0" encoding="UTF-8"?>
+			<site>
+				${1:<filters>
+					$2
+				</filters>}
+				${3:<mappings>
+					$4
+				</mappings>}
+				${5:<x-data mixin="$6"/>}
+				${7:<config>
+					$8
+				</config>}
+			</site>$0
+		'''

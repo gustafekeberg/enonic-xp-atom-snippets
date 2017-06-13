@@ -1,0 +1,5 @@
+# Generated with Atomizr – https://atom.io/packages/atomizr
+".text.xml":
+	"Enonic XP - Response Filter":
+		prefix: "xpResponseFilter"
+		body: "<response-filter name=\"$1\" order=\"$2\"/>$0"

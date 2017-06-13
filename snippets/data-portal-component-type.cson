@@ -1,0 +1,13 @@
+# Generated with Atomizr – https://atom.io/packages/atomizr
+".text.html":
+	"Enonic XP - Data Portal Region":
+		prefix: "xpDataPortalRegion"
+		body: '''
+			<${1:div} data-portal-region="${2:main}">
+				<th:block th:if="\\$\\{${3:regions} and ${3:regions}.${4:nav}\\}">
+					<th:block th:each="component : \\$\\{${3:regions}.${4:nav}.components\\}">
+						<th:block data-portal-component="\\$\\{component.path\\}"></th:block>
+					</th:block>
+				</th:block>
+			</${1:div}>$0
+'''

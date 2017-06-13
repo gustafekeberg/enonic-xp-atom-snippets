@@ -1,0 +1,11 @@
+# Generated with Atomizr – https://atom.io/packages/atomizr
+".text.xml":
+	"Enonic XP - HtmlArea":
+		prefix: "xpHtmlArea"
+		body: '''
+			<input name="$1" type="HtmlArea">
+				<label>$2</label>
+				<help-text>$3</help-text>
+				<default>${4:Enter $2 data here}</default>
+			</input>$0
+		'''

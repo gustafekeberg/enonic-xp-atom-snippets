@@ -1,0 +1,12 @@
+# Generated with Atomizr – https://atom.io/packages/atomizr
+".text.xml":
+	"Enonic XP - CheckBox":
+		prefix: "xpCheckBox"
+		body: '''
+			<input name="$1" type="CheckBox">
+				<label>$2</label>
+				<help-text>$3</help-text>
+				<occurrences minimum="0" maximum="1"/>
+				<default>${4:checked}</default>
+			</input>$0
+		'''

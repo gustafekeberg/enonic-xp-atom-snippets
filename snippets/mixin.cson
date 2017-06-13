@@ -1,0 +1,13 @@
+# Generated with Atomizr – https://atom.io/packages/atomizr
+".text.xml":
+	"Enonic XP - Mixin":
+		prefix: "xpMixin"
+		body: '''
+			<?xml version="1.0" encoding="UTF-8"?>
+			<mixin>
+				<display-name>$1</display-name>
+				<items>
+					$2
+				</items>
+			</mixin>$0
+		'''

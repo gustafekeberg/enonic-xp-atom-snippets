@@ -1,0 +1,18 @@
+# Generated with Atomizr – https://atom.io/packages/atomizr
+".text.xml":
+	"Enonic XP - Content Type":
+		prefix: "xpContentType"
+		body: '''
+			<?xml version="1.0" encoding="UTF-8"?>
+			<content-type>
+				<display-name>$1</display-name>
+				${2:<content-display-name-script>\\$('$3', '$4')</content-display-name-script>}
+				<super-type>${5:base:structured}</super-type>
+				<is-abstract>${6:false}</is-abstract>
+				<is-final>${7:true}</is-final>
+				<allow-child-content>${8:true}</allow-child-content>
+				<form>
+					$9
+				</form>
+			</content-type>$0
+		'''

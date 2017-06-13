@@ -1,0 +1,14 @@
+# Generated with Atomizr – https://atom.io/packages/atomizr
+".text.xml":
+	"Enonic XP - Layout":
+		prefix: "xpLayout"
+		body: '''
+			<?xml version="1.0" encoding="UTF-8"?>
+			<layout>
+				<display-name>$1</display-name>
+				<config/>
+				<regions>
+					<region name="$2"/>
+				</regions>
+			</layout>$0
+		'''

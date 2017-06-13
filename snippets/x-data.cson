@@ -1,0 +1,5 @@
+# Generated with Atomizr – https://atom.io/packages/atomizr
+".text.xml":
+	"Enonic XP - x-data":
+		prefix: "xpXData"
+		body: "<x-data mixin=\"$1\"/>$0"

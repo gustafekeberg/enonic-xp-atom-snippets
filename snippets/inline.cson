@@ -1,0 +1,5 @@
+# Generated with Atomizr – https://atom.io/packages/atomizr
+".text.xml":
+	"Enonic XP - Inline":
+		prefix: "xpInline"
+		body: "<inline mixin=\"$1\"/>$0"

@@ -1,0 +1,14 @@
+# Generated with Atomizr – https://atom.io/packages/atomizr
+".text.xml":
+	"Enonic XP - ImageSelector":
+		prefix: "xpImageSelector"
+		body: '''
+			<input name="$1" type="ImageSelector">
+				<label>$2</label>
+				<help-text>$3</help-text>
+				<occurrences minimum="$4" maximum="$5"/>
+				<config>
+					<allowPath>${6:\\${site\\}/*}</allowPath>
+				</config>
+			</input>$0
+		'''

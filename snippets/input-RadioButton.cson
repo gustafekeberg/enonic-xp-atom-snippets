@@ -1,0 +1,15 @@
+# Generated with Atomizr – https://atom.io/packages/atomizr
+".text.xml":
+	"Enonic XP - RadioButton":
+		prefix: "xpRadioButton"
+		body: '''
+			<input name="$1" type="RadioButton">
+				<label>$2</label>
+				<help-text>$3</help-text>
+				<occurrences minimum="0" maximum="0"/>
+				<config>
+					<option value="$4">$5</option>
+				</config>
+				<default>$4</default>
+			</input>$0
+		'''

@@ -1,0 +1,15 @@
+# Generated with Atomizr – https://atom.io/packages/atomizr
+".text.xml":
+	"Enonic XP - ComboBox":
+		prefix: "xpComboBox"
+		body: '''
+			<input name="$1" type="ComboBox">
+				<label>$2</label>
+				<help-text>$3</help-text>
+				<occurrences minimum="$4" maximum="$5"/>
+				<config>
+					<option value="$6">$7</option>
+				</config>
+				<default>$6</default>
+			</input>$0
+		'''

@@ -1,0 +1,11 @@
+# Generated with Atomizr – https://atom.io/packages/atomizr
+".text.xml":
+	"Enonic XP - Double":
+		prefix: "xpDouble"
+		body: '''
+			<input name="$1" type="Double">
+				<label>$2</label>
+				<help-text>$3</help-text>
+				<default>${4:3.14159265359}</default>
+			</input>$0
+		'''

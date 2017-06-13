@@ -1,0 +1,15 @@
+# Generated with Atomizr – https://atom.io/packages/atomizr
+".text.xml":
+	"Enonic XP - Option Set":
+		prefix: "xpOptionSet"
+		body: '''
+			<option-set name="$1">
+				<label>$2</label>
+				<expanded>${3:true}</expanded>
+				<occurrences minimum="$4" maximum="$5"/>
+				<help-text>$6</help-text>
+				<options minimum="$7" maximum="$8">
+					$9
+				</options>
+			</option-set>$0
+		'''

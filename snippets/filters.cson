@@ -1,0 +1,9 @@
+# Generated with Atomizr – https://atom.io/packages/atomizr
+".text.xml":
+	"Enonic XP - Filters":
+		prefix: "xpFilters"
+		body: '''
+			<filters>
+				$1
+			</filters>$0
+		'''

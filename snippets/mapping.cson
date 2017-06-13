@@ -1,0 +1,10 @@
+# Generated with Atomizr – https://atom.io/packages/atomizr
+".text.xml":
+	"Enonic XP - Mapping":
+		prefix: "xpMapping"
+		body: '''
+			<mapping controller="$1">
+				<match>${2:type:'portal:fragment'}</match>
+				${3:<pattern invert="${4:true}">${5:.*\\/_\\/.*}</pattern>}
+			</mapping>$0
+		'''

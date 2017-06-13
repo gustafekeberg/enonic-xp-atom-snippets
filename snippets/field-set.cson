@@ -1,0 +1,13 @@
+# Generated with Atomizr – https://atom.io/packages/atomizr
+".text.xml":
+	"Enonic XP - Field Set":
+		prefix: "xpFieldSet"
+		body: '''
+			<field-set name="$1">
+				<label>$2</label>
+				<help-text>$3</help-text>
+				<items>
+					$4
+				</items>
+			</field-set>$0
+		'''

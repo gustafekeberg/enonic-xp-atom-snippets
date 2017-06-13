@@ -1,0 +1,9 @@
+# Generated with Atomizr – https://atom.io/packages/atomizr
+".text.xml":
+	"Enonic XP - Mappings":
+		prefix: "xpMappings"
+		body: '''
+			<mappings>
+				${1:$SELECTION}
+			</mappings>$0
+		'''

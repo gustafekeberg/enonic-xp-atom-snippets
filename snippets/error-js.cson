@@ -1,0 +1,35 @@
+# Generated with Atomizr – https://atom.io/packages/atomizr
+".source.js":
+	"Enonic XP - Error Handling JS":
+		prefix: "xpErrorHandlingJS"
+		body: '''
+			var thymeleaf = require('/lib/xp/thymeleaf');
+
+			var view404 = resolve('${1:page-not-found.html}');
+			var viewGeneric = resolve('${2:error.html}');
+
+			exports.handle404 = function (err) {
+			    var body = thymeleaf.render(view404, {});
+			    return {
+			        contentType: 'text/html',
+			        body: body
+			    }
+			};
+
+			exports.handleError = function (err) {
+			    var debugMode = err.request.params.debug === 'true';
+			    if (debugMode && err.request.mode === 'preview') {
+			        return;
+			    }
+
+			    var params = {
+			        errorCode: err.status
+			    };
+			    var body = thymeleaf.render(viewGeneric, params);
+
+			    return {
+			        contentType: 'text/html',
+			        body: body
+			    }
+			};$0
+		'''

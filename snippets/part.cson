@@ -1,0 +1,18 @@
+# Generated with Atomizr – https://atom.io/packages/atomizr
+".text.xml":
+	"Enonic XP - Part":
+		prefix: "xpPart"
+		body: '''
+			<?xml version="1.0" encoding="UTF-8"?>
+			<part>
+				<display-name>$1</display-name>
+				<config>
+					<field-set name="$2">
+						<label>$3</label>
+						<items>
+							$0
+						</items>
+					</field-set>
+				</config>
+			</part>$0
+		'''
