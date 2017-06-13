@@ -2,6 +2,8 @@
 
 A collection of snippets to use when working with Enonic XP in Atom.
 
+![screenshot](/../screenshots/screenshot.jpg?raw=true "Screenshot")
+
 ## Snippet files included
 
 - `content-type.cson`
@@ -39,6 +41,3 @@ A collection of snippets to use when working with Enonic XP in Atom.
 - `response-filter-js.cson`
 - `site.cson`
 - `x-data.cson`
-
-
-<!-- ![screenshot](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif) -->
